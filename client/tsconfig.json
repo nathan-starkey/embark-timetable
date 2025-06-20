@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.base.json",
+
+  "compilerOptions": {
+    /* Language and Environment */
+    "lib": ["ES2024", "DOM"],
+
+    /* Modules */
+    "types": [],
+
+    /* Emit */
+    "outDir": "dist"
+  },
+
+  "include": ["src/**/*.mts"]
+}

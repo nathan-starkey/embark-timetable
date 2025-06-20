@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffc107;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: linear-gradient(90deg, #ffc107 50%, #f8f9fa 50%);
+  }
+}
+
+.dropdown, .dropdown-offset {
+  margin-left: calc(2.5em + 2px);
+}
